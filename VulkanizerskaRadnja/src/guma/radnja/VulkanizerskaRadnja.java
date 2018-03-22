@@ -1,8 +1,8 @@
-package radnja;
+package guma.radnja;
 
 import java.util.LinkedList;
 
-import gume.AutoGuma;
+import guma.AutoGuma;
 
 /**
  * Klasa VulkanizerskaRadnja koja predstavlja rad.
@@ -19,8 +19,8 @@ public class VulkanizerskaRadnja {
 	/**
 	 * Metoda koja dodaje novu gumu u listu
 	 * 
-	 * @param Objekat
-	 *            klase AutoGuma
+	 * @param AutoGuma
+	 *            objekat klase AutoGuma
 	 * @throws java.lang.NullPointerException
 	 *             kada je uneti objekat null.
 	 * @throws java.lang.RuntimeException
@@ -41,8 +41,8 @@ public class VulkanizerskaRadnja {
 	/**
 	 * Metoda koja vraca listu sa svim gumama od date marke
 	 * 
-	 * @param Marka
-	 *            gume
+	 * @param markaModel
+	 *            Model gume koja se pretrazuje
 	 * @return Lista sa gumama
 	 */
 	public LinkedList<AutoGuma> pronadjiGumu(String markaModel) {
@@ -58,7 +58,7 @@ public class VulkanizerskaRadnja {
 	/**
 	 * Proverava da li se guma nalazi u listi.
 	 * 
-	 * @param Guma
+	 * @param AutoGuma Objekat klase AutoGuma
 	 * @return da ili ne
 	 */
 	public boolean proveriGumu(AutoGuma a) {

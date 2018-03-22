@@ -1,4 +1,4 @@
-package gume;
+package guma;
 
 /**
  * Klasa nam predstavlja auto gume.
@@ -123,7 +123,9 @@ public class AutoGuma {
 				+ visina + "]";
 	}
 	/**
-	 * Metoda koja proverava da li je uneti objekat klase AutoGuma.
+	 * Proverava da li su precnik, sirina i visina unete gume isti kao i za uneti objekat kao i marka gume.
+	 *
+	 * Takodje metoda proverava da li je uneti objekat klase AutoGuma kao i da li je razlicit od null.
 	 */
 	@Override
 	public boolean equals(Object obj) {
